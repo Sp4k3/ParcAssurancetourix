@@ -1,0 +1,65 @@
+.inline-form
+{
+display: inline-block;
+width: 100px;
+}
+
+.navbar-right {
+	float: right;
+	margin-right: 90px; 
+	}
+
+.well
+{
+	background-color:#cccccc;
+	margin: auto;
+	padding-top: 70px;
+	width: 1000px;
+}
+
+
+.table tr
+{
+	width: 100;
+}
+
+.bouton_ok, .bouton_del
+{
+	height:50px;
+	width:100px;
+	color:#000000;
+	background-color:#cccccc;
+	border-radius: 30px;
+	font-weight: bold;
+	display: inline-block;
+	margin: auto;
+}
+
+.bouton_ok:hover, .bouton_del:hover
+{
+	background-color: #aaaaaa;
+}
+
+.bouton_ok:active, .bouton_del:active
+{
+	background-color:#555555;
+}
+
+.valid {
+	color: green;
+	line-height: 21px;
+	padding-left: 22px;
+}
+
+.invalid {
+	color: red;
+	line-height: 21px;
+	padding-left: 22px;
+}
+
+#mdp_info {
+	background: #cccccc none repeat scroll 0 0;
+	color: #fff;
+	left: 20px;
+	position: absolute;
+}

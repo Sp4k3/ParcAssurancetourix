@@ -1,0 +1,391 @@
+/* Visite */
+.btn_connect_visite
+{
+	margin-top: 180px; 
+	margin-bottom: 30px; 
+	text-align: right;
+}
+
+.titre_venir
+{
+	font-family : 'Gibson', sans-serif; 
+	text-shadow: #347B1B 0.1em 0.1em 0.2em;
+}
+
+/* Recapitulatif parcours*/
+.th_mon_parcours
+{
+	background-color: #347B1B; 
+	color: white; 
+	vertical-align: middle !important;
+}
+
+
+.td_general_grand
+{
+	text-align: center;
+	min-width: 300px;
+	vertical-align: middle !important;
+}
+
+.td_duree
+{
+	vertical-align: middle !important; 
+	text-align: center;
+}
+
+/* Parcours */
+
+.div_container
+{
+	margin-top: 100px;
+}
+
+.th_vide
+{
+	border-left : 1px solid white !important; 
+	border-right : 1px solid white !important; 
+	border-top : 1px solid white !important; 
+	background-color: white;
+}
+
+.tr_general
+{
+	background-color: #347B1B; 
+	color: white;
+}
+
+.td_general
+{
+	text-align: center;
+}
+
+.numero_parcours
+{
+	background-color: #347B1B; 
+	color: white;
+}
+
+.td_input_parcours
+{
+	text-align: center; 
+	background-color: #347B1B;
+}
+
+.input_parcours
+{
+	width: 17px; 
+	height: 17px;
+}
+
+.bouton_enregistrer_parcours
+{
+	margin-top: 40px; 
+	margin-bottom: 30px; 
+	text-align: center;
+}
+
+/* Formulaire donneesPers*/
+
+#preciser_on
+{
+	display : none;
+}
+
+/* Vue deconnexion */
+
+.div_deconnexion
+{
+	padding-top : 200px; 
+	text-align : center;
+}
+
+/* Recapitulatif */
+
+.color_span
+{
+	color: red;
+}
+
+.span_barre
+{
+	text-decoration: line-through;
+}
+
+.td_total
+{
+	background-color: #6B6B6B !important; 
+	color: white !important; 
+	vertical-align:middle;
+}
+
+/* Vue achat Billets */
+
+.connexion
+{
+	margin-left: 30%;
+}
+
+.body_billet, .body_general
+{
+	margin-top: 210px !important; 
+}
+
+
+.table_billeterie
+{
+	padding : 0px 10px 0px 10px;
+}
+
+.th_billeterie
+{
+	background-color: #347B1B !important; 
+	color: white !important;
+}
+
+.div_ajout
+{
+	text-align: center; 
+	margin-top: 20px;
+}
+
+.div_connect_disconnect
+{
+	margin-bottom: 30px; 
+	text-align: right !important;
+}
+
+/* Vue Billets */
+.titre_billet
+{
+	font-family : 'Gibson', sans-serif; 
+	font-size : 40px; 
+	font-weight: bold; 
+	color:  #347B1B;
+}
+
+
+.prix, .body_billet, .body_visite, .titre_parcours
+{
+	text-align: center;
+}
+
+.offre, .offre:hover
+{
+	color: #347B1B;
+}
+
+.div_table
+{
+	padding : 40px 10px 0px 10px;
+}
+
+.tr_billet
+{
+	background-color: #347B1B; 
+	color: white;
+}
+
+.th_billet
+{
+	min-width: 300px;
+}
+
+/* Footer */
+
+.footer
+{
+	padding-top : 50px;
+	margin-bottom : -50px;
+}
+
+#footer
+{
+	background-color: #347B1B;
+	color : white;
+}
+
+.div_footer
+{
+	text-align:center; 
+	padding: 15px 0px 15px 0px;
+}
+
+.footer_a
+{
+	text-decoration : underline;
+}
+
+
+/*Carousel*/
+.carousel-inner img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container_carousel
+{
+	padding-top: 310px;
+}
+
+.caption_carou, .description_carou
+{
+	color: white;
+	text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.caption_carou:hover
+{
+	color : #347B1B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#attractions
+{
+	margin-top: -10px;
+}
+
+.titre_carou, .titre_carou2
+{
+	margin-top: 170px;
+	font-family : "Gibson", sans-serif;
+	font-weight: bold;
+	background-color:  #347B1B;
+	text-align: center;
+	color: white;
+}
+
+.titre_carou2
+{
+	margin-top: 180px;
+}
+
+.title
+{
+	font-size : 60px;
+}
+
+.subtitle
+{
+	font-size : 30px;
+	margin-top: -20px;
+}
+
+/*header*/
+
+.background_navbar
+{
+	background-color: white;
+}
+
+.police_navbar_titre
+{
+	font-family : "Gibson", sans-serif;
+	font-size : 30px;
+	font-weight: bold;
+	background-color:  #347B1B;
+}
+
+#couleur_texte_navbar
+{
+	color : white;
+}
+
+#couleur_texte_navbar:hover
+{
+	color : #347B1B;
+}
+
+#couleur_texte_navbar_select
+{
+	color: black;
+}
+
+.pages
+{
+	padding-top: 80px;
+}
+
+.carte_restaurant
+{
+	margin-top: 200px;
+	text-align: center;
+}
+
+/*Attractions*/
+.AttractionsFortes
+{
+	background: url('/ParcAssurancetourix/images/BackAttractions.png') no-repeat; 
+	background-position: -2% 120%;
+}
+
+.AttractionsFamilles
+{
+	background: url('/ParcAssurancetourix/images/BackAttractionsInverse.png') no-repeat; 
+	background-position: 102% 120%;
+}
+
+.AttractionsPetits
+{
+	background: url('/ParcAssurancetourix/images/BackAttractions.png') no-repeat; 
+	background-position: -2% 120%;
+} 
+
+.div_temeraire
+{
+	margin-top: 300px; 
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 25px;
+}
+
+.div_image_attractions
+{
+	margin-top: 200px;
+}
+
+.color_a, .color_a:hover
+{
+	color:black;
+}
+
+.div_attractions
+{
+	margin-top: 300px; 
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 25px;
+}
+
+.span_attraction
+{
+	font-size: 10px;
+}
+
+.body_attractions, .body_restaurants
+{
+	margin-top: 200px !important;
+}
+
+.images_attraction, .images_restaurant
+{
+	padding-top: 20px;
+}
+
+.texte_annexe
+{
+	text-align: left;
+}
+
+#rapidux\&furiux, #stampidix, #Oziris, #rockntourix, #pegase, #Discobelix, #icare, #oxygenarium, #etamine, #aerodynamix, #enigmatix, #hydrolix, 
+#info_contraintes
+{
+	display: none;
+}
+
+#rapidux\&furiux:target, #stampidix:target, #Oziris:target, #rockntourix:target, #pegase:target, #Discobelix:target, #icare:target, #oxygenarium:target, #etamine:target, #aerodynamix:target, #enigmatix:target, #hydrolix:target
+{
+	display: block;
+}

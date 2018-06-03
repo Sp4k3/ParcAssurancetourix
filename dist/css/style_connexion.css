@@ -1,0 +1,24 @@
+.connexion
+{
+	text-align: center;
+	border: 1px solid #347B1B;
+	min-height: 20px;
+	border-radius: 6px;
+	padding: 19px;
+	max-width: 500px;
+}
+
+#div_connexion
+{
+	padding-top : 300px;
+}
+
+.form-signin-heading
+{
+	text-align : center;
+}
+
+#inputPassword
+{
+	margin-top : 15px; margin-bottom : 15px;
+}
