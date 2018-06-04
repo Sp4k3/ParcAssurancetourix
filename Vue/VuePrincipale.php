@@ -101,7 +101,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img src="images/restaurant_polynesie.jpg" alt="restaurant polynesia" width="1200" height="500">
+						<img src="images/restaurant_polynesia.jpg" alt="restaurant polynesia" width="1200" height="500">
 						<div class="carousel-caption">
 							<h3><a href="./Vue/restaurants.php" class="caption_carou">Polynesia</a></h3>
 							<p class="description_carou">La Polynésie gauloise à porté d'assiette !</p>
