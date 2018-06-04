@@ -1,3 +1,9 @@
+<?php
+if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<!-- Début du head -->
@@ -28,7 +34,20 @@
 		<div class="body_visite">
 			<div class="col-xs-12 btn_connect_visite">
 				<a class="btn btn-success" href="../indexFormulaire.php">Première visite</a>
-				<a class="btn btn-success" href="../Controleur/controleur_connexion.php">Connexion</a>
+				<?php 
+				if(!empty($_SESSION['id_personne']))
+				{
+				?>
+					<a class="btn btn-success" href="../Controleur/controleur_deconnexion.php">Deconnexion</a>
+				<?php
+				}
+				else
+				{
+					?>
+					<a class="btn btn-success" href="../Controleur/controleur_connexion.php">Connexion</a>
+					<?php
+				}
+				?>
 			</div>
 			<div>
 				<h1 class="titre_venir">Venir au parc Assurancetourix</h1>
