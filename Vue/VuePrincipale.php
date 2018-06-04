@@ -87,7 +87,7 @@
 
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="images/restaurant_lac.jpg" alt="restaurant du lac" width="1200" height="500">
+						<img src="images/restaurant_du_lac.jpg" alt="restaurant du lac" width="1200" height="500">
 						<div class="carousel-caption">
 							<h3><a href="./Vue/restaurants.php" class="caption_carou">Le restaurant du lac</a></h3>
 							<p class="description_carou">Bienvenue dans le restaurant préféré d'Obélix...</p>
